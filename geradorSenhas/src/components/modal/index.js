@@ -9,7 +9,7 @@ export function ModalPassword({senha, fecharModal,salvarSenha}) {
         Toast.show({
             type: 'success',
             text1: 'Senha copiada!',
-            text2: 'A senha foi copiada para a área de transferência! ❤',
+            text2: 'A senha foi copiada para a área de transferência!',
         });
     }
 
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems:"center",
         padding:8,
-        backgroundColor:"#333",
+        backgroundColor:"#ff6961",
         borderRadius:8
     },
     buttonTextSave:{

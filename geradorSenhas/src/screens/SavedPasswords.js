@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         padding: 20,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'center',x
     },
     title: {
         fontSize: 24,
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     passwordContainer: {
-        backgroundColor: '#e0e0e0',
+        backgroundColor: '#ff6961',
         padding: 10,
         marginVertical: 5,
         borderRadius: 5,

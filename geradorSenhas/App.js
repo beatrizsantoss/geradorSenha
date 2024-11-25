@@ -39,10 +39,10 @@ function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Image
-        source={require("./src/img/logolock.png")}
+        source={require("./src/img/cadeado.webp")}
         style={styles.logo}
       />
-      <Text style={styles.title}>LockGen</Text>
+      <Text style={styles.title}>Security Passwords</Text>
       
       <TouchableOpacity 
         style={styles.button} 
@@ -83,7 +83,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    marginBottom: 20,
+    width: 200,
+    height: 200,
   },
   title: {
     fontSize: 28,
@@ -92,7 +93,7 @@ const styles = StyleSheet.create({
  
   },
   button: {
-    backgroundColor: "#333",
+    backgroundColor: "#ff6961",
     width: '70%',
     height: 50,
     borderRadius: 8,
